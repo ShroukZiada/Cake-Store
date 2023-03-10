@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.subtitle {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: #FF93D4;
+    line-height: 80px;
+    text-decoration: none solid rgb(255, 147, 212);
+    word-spacing: 0px;
+}
+
+.images-hover {
+    height: 300px;
+    width: 300px;
+}
+
+.images-hover img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.images-hover img {
+    padding: 25px 25px !important;
+}
+
+.fab {
+    font-size: 30px;
+    color: #000 !important;
+    transition: all 0.5s;
+}
+
+i:hover {
+    color: #FF93D4 !important;
+}
+
+.NavBar {
+    background-color: #FF93D4 !important;
+}
+
+.nav-item a {
+    color: #000;
+}
+
+.nav-item:hover a {
+    color: #FF93D4 !important;
+}
